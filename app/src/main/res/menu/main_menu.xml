@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_home"
+            android:title="@string/home"
+            android:icon="@drawable/menu_home_icon" />
+
+        <item
+            android:id="@+id/navigation_search"
+            android:title="@string/search_services"
+            android:icon="@drawable/location_icon" />
+
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_services"
+            android:icon="@drawable/menu_categories_icon" />
+
+    </group>
+
+    <item  android:title="@string/profile1">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile12"
+                    android:icon="@drawable/menu_profile_icon" />
+
+            </group>
+
+        </menu>
+    </item>
+
+
+    <item  android:title="@string/share">
+        <menu>
+
+            <group>
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share1"
+                    android:icon="@drawable/menu_share_icon" />
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/menu_rate_icon" />
+
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

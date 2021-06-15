@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mrhelper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_logo_circular"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User.RateUs"></activity>
+        <activity android:name=".User.Search" />
+        <activity android:name=".Services.Yoga" />
+        <activity android:name=".Services.Pathalogist" />
+        <activity android:name=".Services.Physiotherapy" />
+        <activity android:name=".Services.HomeTutor" />
+        <activity android:name=".Services.Dietician" />
+        <activity android:name=".Services.Carpenter" />
+        <activity android:name=".Services.HomeCleaner" />
+        <activity android:name=".Services.Plumber" />
+        <activity android:name=".Services.Electrician" />
+        <activity android:name=".User.AllCategories" />
+        <activity android:name=".Common.OnBoarding" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.UserDashboard" />
+        <activity android:name=".User.UserProfile" />
+        <activity android:name=".Common.LoginSignup.VerifyPhoneActivity" />
+        <activity android:name=".Common.LoginSignup.Register" />
+        <activity android:name=".Common.LoginSignup.Login" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
